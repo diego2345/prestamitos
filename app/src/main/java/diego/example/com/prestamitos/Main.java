@@ -36,7 +36,6 @@ public class Main extends Activity {
                 Bundle bundle1 = new Bundle();
                 bundle1.putString("activity", "main");
                 intentAdd.putExtras(bundle1);
-                //intentAdd.putExtra("activity", "main");
                 startActivity(intentAdd);
             }
         });
